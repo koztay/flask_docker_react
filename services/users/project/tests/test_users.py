@@ -142,7 +142,8 @@ class TestUserService(BaseTestCase):
             self.assertIn('ahmet', data['data']['users'][0]['username'])
             self.assertIn('ahmet@gmail.com', data['data']['users'][0]['email'])
             self.assertIn('mehmet', data['data']['users'][1]['username'])
-            self.assertIn('mehmet@gmail.com', data['data']['users'][1]['email'])
+            self.assertIn('mehmet@gmail.com',
+                          data['data']['users'][1]['email'])
             self.assertIn('success', data['status'])
 
     def test_main_no_users(self):

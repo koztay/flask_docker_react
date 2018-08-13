@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2958523a-8b81-400c-86df-90fa659d0594" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/services/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/services/nginx/Dockerfile-dev" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/nginx/flask.conf" beforeDir="false" afterPath="$PROJECT_DIR$/services/nginx/dev.conf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,25 +23,26 @@
     <session id="-418918569">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Dockerfile" value="4" />
-          <entry key="Dockerfile-dev" value="3" />
-          <entry key="Dockerfile-prod" value="1" />
-          <entry key="conf" value="1" />
-          <entry key="dockerignore" value="2" />
+          <entry key="Dockerfile" value="5" />
+          <entry key="Dockerfile-dev" value="5" />
+          <entry key="Dockerfile-prod" value="5" />
+          <entry key="conf" value="5" />
+          <entry key="dockerignore" value="3" />
           <entry key="gitignore" value="4" />
           <entry key="html" value="3" />
-          <entry key="js" value="3" />
-          <entry key="json" value="2" />
+          <entry key="js" value="4" />
+          <entry key="json" value="6" />
           <entry key="jsx" value="4" />
           <entry key="md" value="3" />
           <entry key="py" value="35" />
@@ -44,62 +50,64 @@
           <entry key="snap" value="1" />
           <entry key="sql" value="2" />
           <entry key="txt" value="6" />
-          <entry key="yml" value="10" />
+          <entry key="yml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Bash" value="3" />
-          <entry key="Docker file" value="2" />
-          <entry key="Dockerfile" value="5" />
+          <entry key="Docker file" value="3" />
+          <entry key="Dockerfile" value="10" />
           <entry key="Git file" value="4" />
           <entry key="HTML" value="3" />
           <entry key="Hoi4 file" value="3" />
-          <entry key="JSON" value="2" />
+          <entry key="JSON" value="6" />
           <entry key="JSX Harmony" value="4" />
-          <entry key="JavaScript" value="3" />
+          <entry key="JavaScript" value="4" />
           <entry key="Jest Snapshot" value="1" />
           <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="PLAIN_TEXT" value="13" />
           <entry key="Python" value="35" />
           <entry key="SQL" value="2" />
-          <entry key="YAML" value="10" />
+          <entry key="YAML" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="183" />
-          <entry key="Dockerfile-dev" value="281" />
-          <entry key="Dockerfile-prod" value="10" />
-          <entry key="conf" value="291" />
-          <entry key="dockerignore" value="22" />
+          <entry key="Dockerfile" value="563" />
+          <entry key="Dockerfile-dev" value="390" />
+          <entry key="Dockerfile-prod" value="14" />
+          <entry key="conf" value="333" />
+          <entry key="dockerignore" value="77" />
           <entry key="gitignore" value="47" />
           <entry key="html" value="751" />
-          <entry key="js" value="1189" />
+          <entry key="js" value="1203" />
+          <entry key="json" value="6" />
           <entry key="jsx" value="1601" />
           <entry key="md" value="415" />
           <entry key="py" value="8366" />
           <entry key="sh" value="172" />
           <entry key="sql" value="78" />
           <entry key="txt" value="183" />
-          <entry key="yml" value="973" />
+          <entry key="yml" value="1240" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Bash" value="178" />
-          <entry key="Docker file" value="22" />
-          <entry key="Dockerfile" value="193" />
+          <entry key="Docker file" value="77" />
+          <entry key="Dockerfile" value="577" />
           <entry key="Git file" value="47" />
           <entry key="HTML" value="751" />
           <entry key="Hoi4 file" value="107" />
+          <entry key="JSON" value="6" />
           <entry key="JSX Harmony" value="1601" />
-          <entry key="JavaScript" value="1189" />
+          <entry key="JavaScript" value="1203" />
           <entry key="Markdown" value="409" />
-          <entry key="PLAIN_TEXT" value="648" />
+          <entry key="PLAIN_TEXT" value="799" />
           <entry key="Python" value="8366" />
           <entry key="SQL" value="78" />
-          <entry key="YAML" value="973" />
+          <entry key="YAML" value="1240" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -108,65 +116,57 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/services/client/src/index.js">
+        <entry file="file://$PROJECT_DIR$/docker-compose-prod.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="206">
-              <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/nginx/Dockerfile-dev">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/nginx/Dockerfile-prod">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/nginx/prod.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/github_source_code/testdriven-app-2.2-part2/docker-compose-prod.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="31" selection-start-line="31" selection-end-line="44" selection-end-column="13" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <element signature="n#!!block;n#getUsers#0;n#App#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/client/src/setupTests.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/client/src/components/AddUser.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/client/src/components/UsersList.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/users/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/users/project/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#39#48#0" expanded="true" />
-                <marker date="1534075050732" expanded="true" signature="313:319" ph="..." />
+                <element signature="e#691#999#0" />
               </folding>
             </state>
           </provider>
@@ -201,9 +201,6 @@
         <option value="$PROJECT_DIR$/services/users/entrypoint-prod.sh" />
         <option value="$PROJECT_DIR$/services/users/Dockerfile-prod" />
         <option value="$PROJECT_DIR$/services/nginx/Dockerfile" />
-        <option value="$PROJECT_DIR$/docker-compose-prod.yml" />
-        <option value="$PROJECT_DIR$/services/nginx/flask.conf" />
-        <option value="$PROJECT_DIR$/docker-compose-dev.yml" />
         <option value="$PROJECT_DIR$/services/users/project/api/templates/index.html" />
         <option value="$PROJECT_DIR$/services/users/project/api/users.py" />
         <option value="$PROJECT_DIR$/services/users/manage.py" />
@@ -219,13 +216,23 @@
         <option value="$PROJECT_DIR$/services/users/requirements.txt" />
         <option value="$PROJECT_DIR$/services/users/project/__init__.py" />
         <option value="$PROJECT_DIR$/services/client/src/setuoTests.js" />
-        <option value="$PROJECT_DIR$/services/client/package.json" />
         <option value="$PROJECT_DIR$/services/client/src/components/UsersList.jsx" />
         <option value="$PROJECT_DIR$/services/client/.gitignore" />
         <option value="$PROJECT_DIR$/services/client/src/components/__tests__/UsersList.test.jsx" />
         <option value="$PROJECT_DIR$/services/client/src/components/__tests__/AddUser.test.jsx" />
         <option value="$PROJECT_DIR$/services/client/src/components/AddUser.jsx" />
+        <option value="$PROJECT_DIR$/services/client/Dockerfile" />
+        <option value="$PROJECT_DIR$/services/client/.dockerignore" />
+        <option value="$PROJECT_DIR$/services/client/Dockerfile-dev" />
+        <option value="$PROJECT_DIR$/services/client/package.json" />
+        <option value="$PROJECT_DIR$/services/nginx/flask.conf" />
         <option value="$PROJECT_DIR$/services/client/src/index.js" />
+        <option value="$PROJECT_DIR$/services/client/Dockerfile-prod" />
+        <option value="$PROJECT_DIR$/services/nginx/Dockerfile-dev" />
+        <option value="$PROJECT_DIR$/docker-compose-dev.yml" />
+        <option value="$PROJECT_DIR$/services/nginx/Dockerfile-prod" />
+        <option value="$PROJECT_DIR$/services/nginx/prod.conf" />
+        <option value="$PROJECT_DIR$/docker-compose-prod.yml" />
       </list>
     </option>
   </component>
@@ -240,12 +247,96 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/github_source_code/testdriven-app-2.2-part2/services/client/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@types/node/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/asap/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/boolbase/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/cheerio/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/colors/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/core-js/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/css-select/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/css-what/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/define-properties/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/discontinuous-range/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/dom-serializer/node_modules/domelementtype/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/dom-serializer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/domelementtype/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/domhandler/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/domutils/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/encoding/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/entities/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/enzyme-adapter-react-16/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/enzyme-adapter-utils/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/enzyme/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/es-abstract/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/es-to-primitive/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/fbjs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/foreach/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/function-bind/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/function.prototype.name/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/has-symbols/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/has/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/htmlparser2/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-boolean-object/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-callable/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-date-object/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-number-object/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-regex/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-string/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-subset/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-symbol/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/isomorphic-fetch/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/js-tokens/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lodash.flattendeep/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/loose-envify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/moo/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/nearley/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/node-fetch/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/nomnom/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/nth-check/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/object-inspect/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/object-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/object-keys/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/object.assign/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/object.entries/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/object.values/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/parse5/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/promise/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/prop-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/raf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/railroad-diagrams/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/randexp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/react-dom/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/react-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/react-reconciler/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/react-test-renderer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ret/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/rst-selector-parser/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/setimmediate/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ua-parser-js/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/underscore/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/whatwg-fetch/package.json" />
       <path value="$PROJECT_DIR$/services/client/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="791" />
+    <option name="width" value="929" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -298,36 +389,6 @@
               <item name="flask_react_docker" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="flask_react_docker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flask_react_docker" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flask_react_docker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flask_react_docker" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flask_react_docker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flask_react_docker" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flask_react_docker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flask_react_docker" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -341,18 +402,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/services/nginx" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/services/users" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/services/users/project" />
       <recent name="$PROJECT_DIR$/services/users" />
       <recent name="$PROJECT_DIR$/services" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/services/users" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -405,11 +468,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="791" height="877" extended-state="0" />
+    <frame x="0" y="23" width="929" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.34312415" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.259301" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.3299363" />
+      <window_info anchor="bottom" id="Docker" order="4" weight="0.3299363" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3299363" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.4165605" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.34312415" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -429,7 +516,7 @@
       <window_info anchor="right" id="SciView" order="2" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -438,7 +525,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testdriven-app-2.2-part1/.gitignore" />
     <entry file="file://$PROJECT_DIR$/github_source_code/testdriven-app-2.2-part1/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -476,9 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="30" />
-          <folding>
-            <marker date="1533747399887" expanded="true" signature="162:163" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -517,34 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/nginx/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/nginx/flask.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="32" selection-start-line="32" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -563,11 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-249">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <marker date="1534068204140" expanded="true" signature="360:730" ph="..." />
-            <marker date="1534068204140" expanded="true" signature="763:1343" ph="..." />
-            <marker date="1534068204140" expanded="true" signature="1132:1343" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -575,24 +625,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="90" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="e#40#102#0" expanded="true" />
-            <marker date="1534019726863" expanded="true" signature="344:349" ph="..." />
-            <marker date="1534019726863" expanded="true" signature="497:502" ph="..." />
-            <marker date="1534019726863" expanded="true" signature="1478:1483" ph="..." />
-            <marker date="1534019726863" expanded="true" signature="2246:2251" ph="..." />
-            <marker date="1534019726863" expanded="true" signature="2766:2771" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis_does_not_work.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="100" selection-start-line="10" selection-start-column="100" selection-end-line="10" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis_does_not_work.yml" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -603,21 +639,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="46" column="56" lean-forward="true" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
-          <folding>
-            <element signature="e#47#56#0" expanded="true" />
-            <marker date="1534072678707" expanded="true" signature="234:235" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -625,11 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
           <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
-          <folding>
-            <element signature="e#41#52#0" expanded="true" />
-            <marker date="1534072710245" expanded="true" signature="206:322" ph="..." />
-            <marker date="1534072710245" expanded="true" signature="358:363" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -651,12 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <marker date="1534074105482" expanded="true" signature="66:71" ph="..." />
-            <marker date="1534074105482" expanded="true" signature="298:303" ph="..." />
-            <marker date="1534074105482" expanded="true" signature="454:459" ph="..." />
-            <marker date="1534074105482" expanded="true" signature="644:645" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,13 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/client/src/components/UsersList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/client/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -703,9 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,29 +717,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/client/src/setupTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/services/client/src/components/AddUser.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -743,14 +728,142 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/services/client/src/components/UsersList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/client/src/setupTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/client/.dockerignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/client/Dockerfile-dev">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/github_source_code/testdriven-app-2.2-part2/services/client/Dockerfile-dev">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/github_source_code/testdriven-app-2.2-part2/docker-compose-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/github_source_code/testdriven-app-2.2-part2/services/nginx/dev.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/github_source_code/testdriven-app-2.2-part2/services/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/services/client/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+        <state relative-caret-position="143">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
             <element signature="n#!!block;n#getUsers#0;n#App#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/nginx/dev.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/github_source_code/testdriven-app-2.2-part2/services/client/Dockerfile-prod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="24" lean-forward="true" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/client/Dockerfile-prod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/github_source_code/testdriven-app-2.2-part2/docker-compose-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="31" selection-start-line="31" selection-end-line="44" selection-end-column="13" />
+          <folding>
+            <element signature="e#691#999#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/nginx/Dockerfile-dev">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/nginx/Dockerfile-prod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/nginx/prod.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
         </state>
       </provider>
     </entry>

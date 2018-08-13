@@ -3,16 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2958523a-8b81-400c-86df-90fa659d0594" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/api/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/users/project/api/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/api/users.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/users/project/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/tests/test_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/tests/test_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/tests/test_user_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/tests/test_user_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/users/project/tests/test_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/tests/test_users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/tests/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/tests/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +42,7 @@
           <entry key="json" value="6" />
           <entry key="jsx" value="4" />
           <entry key="md" value="3" />
-          <entry key="py" value="57" />
+          <entry key="py" value="58" />
           <entry key="sh" value="3" />
           <entry key="snap" value="1" />
           <entry key="sql" value="2" />
@@ -71,7 +64,7 @@
           <entry key="Jest Snapshot" value="1" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="57" />
+          <entry key="Python" value="58" />
           <entry key="SQL" value="2" />
           <entry key="YAML" value="17" />
         </counts>
@@ -89,7 +82,7 @@
           <entry key="json" value="6" />
           <entry key="jsx" value="1601" />
           <entry key="md" value="415" />
-          <entry key="py" value="10754" />
+          <entry key="py" value="10759" />
           <entry key="sh" value="172" />
           <entry key="sql" value="78" />
           <entry key="txt" value="227" />
@@ -109,7 +102,7 @@
           <entry key="JavaScript" value="1203" />
           <entry key="Markdown" value="409" />
           <entry key="PLAIN_TEXT" value="843" />
-          <entry key="Python" value="10754" />
+          <entry key="Python" value="10759" />
           <entry key="SQL" value="78" />
           <entry key="YAML" value="1240" />
         </counts>
@@ -122,13 +115,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/users/project/api/users.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="122">
+              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
               <folding>
                 <element signature="e#40#102#0" expanded="true" />
-                <marker date="1534169954386" expanded="true" signature="344:349" ph="..." />
-                <marker date="1534169954386" expanded="true" signature="497:502" ph="..." />
-                <marker date="1534169954386" expanded="true" signature="3015:3020" ph="..." />
+                <marker date="1534171158705" expanded="true" signature="344:349" ph="..." />
+                <marker date="1534171158705" expanded="true" signature="497:502" ph="..." />
+                <marker date="1534171158705" expanded="true" signature="3079:3084" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_users.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+              <folding>
+                <element signature="e#41#52#0" expanded="true" />
+                <marker date="1534171177023" expanded="true" signature="216:351" ph="..." />
+                <marker date="1534171177023" expanded="true" signature="387:392" ph="..." />
               </folding>
             </state>
           </provider>
@@ -146,12 +153,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/users/project/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="384">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
+                <element signature="e#39#48#0" expanded="true" />
                 <marker date="1534165040051" expanded="true" signature="418:424" ph="..." />
               </folding>
             </state>
@@ -175,13 +183,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/users/project/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
+            <state relative-caret-position="384">
               <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
-                <marker date="1534170376797" expanded="true" signature="66:71" ph="..." />
-                <marker date="1534170376797" expanded="true" signature="324:329" ph="..." />
-                <marker date="1534170376797" expanded="true" signature="480:485" ph="..." />
-                <marker date="1534170376797" expanded="true" signature="670:671" ph="..." />
+                <marker date="1534171111052" expanded="true" signature="66:71" ph="..." />
+                <marker date="1534171111052" expanded="true" signature="324:329" ph="..." />
+                <marker date="1534171111052" expanded="true" signature="480:485" ph="..." />
+                <marker date="1534171111052" expanded="true" signature="670:671" ph="..." />
               </folding>
             </state>
           </provider>
@@ -267,12 +275,12 @@
         <option value="$PROJECT_DIR$/services/users/project/tests/utils.py" />
         <option value="$PROJECT_DIR$/services/users/migrations/versions/b62fd4fa5138_.py" />
         <option value="$PROJECT_DIR$/services/users/manage.py" />
-        <option value="$PROJECT_DIR$/services/users/project/api/users.py" />
-        <option value="$PROJECT_DIR$/services/users/project/tests/test_users.py" />
         <option value="$PROJECT_DIR$/services/users/project/tests/test_user_model.py" />
         <option value="$PROJECT_DIR$/services/users/project/tests/test_config.py" />
-        <option value="$PROJECT_DIR$/services/users/project/config.py" />
         <option value="$PROJECT_DIR$/services/users/project/api/models.py" />
+        <option value="$PROJECT_DIR$/services/users/project/config.py" />
+        <option value="$PROJECT_DIR$/services/users/project/api/users.py" />
+        <option value="$PROJECT_DIR$/services/users/project/tests/test_users.py" />
       </list>
     </option>
   </component>
@@ -376,7 +384,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="954" />
+    <option name="width" value="762" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -441,6 +449,14 @@
               <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="users" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask_react_docker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_react_docker" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -530,11 +546,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="786" height="877" extended-state="0" />
+    <frame x="0" y="23" width="762" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.37365592" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.33333334" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -548,7 +564,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3210191" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3210191" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
@@ -898,18 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_users.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3074">
-          <caret line="203" column="43" selection-start-line="203" selection-start-column="43" selection-end-line="203" selection-end-column="43" />
-          <folding>
-            <element signature="e#41#52#0" expanded="true" />
-            <marker date="1534169994370" expanded="true" signature="216:351" ph="..." />
-            <marker date="1534169994370" expanded="true" signature="387:392" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_user_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -933,32 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/users/project/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <marker date="1534170376797" expanded="true" signature="66:71" ph="..." />
-            <marker date="1534170376797" expanded="true" signature="324:329" ph="..." />
-            <marker date="1534170376797" expanded="true" signature="480:485" ph="..." />
-            <marker date="1534170376797" expanded="true" signature="670:671" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/users/project/api/users.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#40#102#0" expanded="true" />
-            <marker date="1534169954386" expanded="true" signature="344:349" ph="..." />
-            <marker date="1534169954386" expanded="true" signature="497:502" ph="..." />
-            <marker date="1534169954386" expanded="true" signature="3015:3020" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/users/project/api/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -971,10 +949,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/services/users/project/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="384">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
+            <element signature="e#39#48#0" expanded="true" />
             <marker date="1534165040051" expanded="true" signature="418:424" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/users/project/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <marker date="1534171111052" expanded="true" signature="66:71" ph="..." />
+            <marker date="1534171111052" expanded="true" signature="324:329" ph="..." />
+            <marker date="1534171111052" expanded="true" signature="480:485" ph="..." />
+            <marker date="1534171111052" expanded="true" signature="670:671" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/users/project/api/users.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+          <folding>
+            <element signature="e#40#102#0" expanded="true" />
+            <marker date="1534171158705" expanded="true" signature="344:349" ph="..." />
+            <marker date="1534171158705" expanded="true" signature="497:502" ph="..." />
+            <marker date="1534171158705" expanded="true" signature="3079:3084" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_users.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="e#41#52#0" expanded="true" />
+            <marker date="1534171177023" expanded="true" signature="216:351" ph="..." />
+            <marker date="1534171177023" expanded="true" signature="387:392" ph="..." />
           </folding>
         </state>
       </provider>

@@ -30,4 +30,3 @@ class ProductionConfig(BaseConfig):
     """Production configuration"""
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
     BCRYPT_LOG_ROUNDS = 13
-

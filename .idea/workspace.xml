@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2958523a-8b81-400c-86df-90fa659d0594" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/tests/test_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/tests/test_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/project/tests/test_user_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/tests/test_user_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/users/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="2958523a-8b81-400c-86df-90fa659d0594" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +42,7 @@
           <entry key="json" value="6" />
           <entry key="jsx" value="4" />
           <entry key="md" value="4" />
-          <entry key="py" value="81" />
+          <entry key="py" value="84" />
           <entry key="sh" value="3" />
           <entry key="snap" value="1" />
           <entry key="sql" value="2" />
@@ -73,7 +64,7 @@
           <entry key="Jest Snapshot" value="1" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="81" />
+          <entry key="Python" value="84" />
           <entry key="SQL" value="2" />
           <entry key="YAML" value="18" />
         </counts>
@@ -91,7 +82,7 @@
           <entry key="json" value="6" />
           <entry key="jsx" value="1601" />
           <entry key="md" value="415" />
-          <entry key="py" value="16936" />
+          <entry key="py" value="16942" />
           <entry key="sh" value="172" />
           <entry key="sql" value="78" />
           <entry key="txt" value="243" />
@@ -111,7 +102,7 @@
           <entry key="JavaScript" value="1203" />
           <entry key="Markdown" value="409" />
           <entry key="PLAIN_TEXT" value="859" />
-          <entry key="Python" value="16936" />
+          <entry key="Python" value="16942" />
           <entry key="SQL" value="78" />
           <entry key="YAML" value="1267" />
         </counts>
@@ -133,16 +124,46 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/users/project/api/auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
+            <state relative-caret-position="333">
               <caret line="124" column="44" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
               <folding>
                 <marker date="1534339861968" expanded="true" signature="1748:1753" ph="..." />
                 <marker date="1534339861968" expanded="true" signature="2864:2869" ph="..." />
                 <marker date="1534339861968" expanded="true" signature="3606:3611" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/users/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/services/users/project/tests/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#40#74#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="590">
+              <caret line="70" column="67" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -203,7 +224,6 @@
         <option value="$PROJECT_DIR$/services/users/.dockerignore" />
         <option value="$PROJECT_DIR$/services/users/project/tests/utils.py" />
         <option value="$PROJECT_DIR$/services/users/migrations/versions/b62fd4fa5138_.py" />
-        <option value="$PROJECT_DIR$/services/users/manage.py" />
         <option value="$PROJECT_DIR$/services/users/project/api/users.py" />
         <option value="$PROJECT_DIR$/services/users/project/tests/test_users.py" />
         <option value="$PROJECT_DIR$/services/users/requirements.txt" />
@@ -223,6 +243,7 @@
         <option value="$PROJECT_DIR$/services/users/project/test_auth.py" />
         <option value="$PROJECT_DIR$/services/users/project/tests/test_auth.py" />
         <option value="$PROJECT_DIR$/services/users/project/api/auth.py" />
+        <option value="$PROJECT_DIR$/services/users/manage.py" />
       </list>
     </option>
   </component>
@@ -324,7 +345,7 @@
       <path value="$PROJECT_DIR$/services/client/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="753" />
     <option name="height" value="877" />
@@ -398,7 +419,7 @@
               <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="users" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -483,11 +504,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="753" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.22203948" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.21959943" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5014749" side_tool="true" weight="0.3210191" />
@@ -541,13 +561,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/services/client/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/client/src/components/__tests__/__snapshots__/UsersList.test.jsx.snap">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -709,13 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/users/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="59" column="96" selection-start-line="59" selection-start-column="96" selection-end-line="59" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/users/project/tests/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -765,13 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="70" column="67" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -827,12 +826,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/services/users/project/api/auth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
+        <state relative-caret-position="333">
           <caret line="124" column="44" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
           <folding>
             <marker date="1534339861968" expanded="true" signature="1748:1753" ph="..." />
             <marker date="1534339861968" expanded="true" signature="2864:2869" ph="..." />
             <marker date="1534339861968" expanded="true" signature="3606:3611" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/users/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="70" column="67" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/users/project/tests/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#40#74#0" expanded="true" />
           </folding>
         </state>
       </provider>

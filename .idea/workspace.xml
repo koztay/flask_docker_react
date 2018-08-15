@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2958523a-8b81-400c-86df-90fa659d0594" name="Default Changelist" comment="" />
+    <list default="true" id="2958523a-8b81-400c-86df-90fa659d0594" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/services/users/project/tests/test_auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/project/tests/test_auth.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +84,7 @@
           <entry key="json" value="6" />
           <entry key="jsx" value="1601" />
           <entry key="md" value="415" />
-          <entry key="py" value="16942" />
+          <entry key="py" value="16946" />
           <entry key="sh" value="172" />
           <entry key="sql" value="78" />
           <entry key="txt" value="243" />
@@ -102,7 +104,7 @@
           <entry key="JavaScript" value="1203" />
           <entry key="Markdown" value="409" />
           <entry key="PLAIN_TEXT" value="859" />
-          <entry key="Python" value="16942" />
+          <entry key="Python" value="16946" />
           <entry key="SQL" value="78" />
           <entry key="YAML" value="1267" />
         </counts>
@@ -112,11 +114,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="266" column="60" lean-forward="true" selection-start-line="266" selection-start-column="60" selection-end-line="266" selection-end-column="60" />
+            <state relative-caret-position="254">
+              <caret line="270" column="73" lean-forward="true" selection-start-line="270" selection-start-column="73" selection-end-line="270" selection-end-column="73" />
               <folding>
                 <element signature="e#46#57#0" expanded="true" />
               </folding>
@@ -147,7 +149,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/users/project/tests/base.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="67">
@@ -241,9 +243,9 @@
         <option value="$PROJECT_DIR$/services/users/project/api/test5.py" />
         <option value="$PROJECT_DIR$/services/users/project/__init__.py" />
         <option value="$PROJECT_DIR$/services/users/project/test_auth.py" />
-        <option value="$PROJECT_DIR$/services/users/project/tests/test_auth.py" />
         <option value="$PROJECT_DIR$/services/users/project/api/auth.py" />
         <option value="$PROJECT_DIR$/services/users/manage.py" />
+        <option value="$PROJECT_DIR$/services/users/project/tests/test_auth.py" />
       </list>
     </option>
   </component>
@@ -505,9 +507,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.21959943" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16309012" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5014749" side_tool="true" weight="0.3210191" />
@@ -814,16 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="266" column="60" lean-forward="true" selection-start-line="266" selection-start-column="60" selection-end-line="266" selection-end-column="60" />
-          <folding>
-            <element signature="e#46#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/users/project/api/auth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -856,6 +849,16 @@
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#40#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="270" column="73" lean-forward="true" selection-start-line="270" selection-start-column="73" selection-end-line="270" selection-end-column="73" />
+          <folding>
+            <element signature="e#46#57#0" expanded="true" />
           </folding>
         </state>
       </provider>

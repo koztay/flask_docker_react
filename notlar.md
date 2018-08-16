@@ -25,3 +25,27 @@ bf20168fdaacf97e8480ecac01e8a960226cd76a initial commit
 git tag -a "user_dockerized" 9914
 ```
 
+
+### create react app
+```bash
+
+create-react-app .
+
+```
+
+### start react app develeopment
+```bash
+npm start
+
+```
+
+### create react app build
+```bash
+npm run build
+# bu komutu react app 'in olduğu klasörden vermek gerek
+
+```
+
+
+## Links:
+* https://reacttraining.com/react-router/web/guides/quick-start

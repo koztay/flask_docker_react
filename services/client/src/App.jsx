@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
+import {Route, Switch} from 'react-router-dom';
 import axios from 'axios';
 
 
 import UserList from './components/UsersList'
 import AddUser from './components/AddUser'
+import About from './components/About'
 
 
 class App extends Component {
@@ -25,8 +27,12 @@ class App extends Component {
 
     getUsers() {
         axios.get(`${process.env.REACT_APP_USERS_SERVICE_URL}/users`)
-            .then((res) => { this.setState({users: res.data.data.users}) })
-            .catch((err) => { console.log(err) })
+            .then((res) => {
+                this.setState({users: res.data.data.users})
+            })
+            .catch((err) => {
+                console.log(err)
+            })
     }
 
     addUser(event) {
@@ -42,7 +48,9 @@ class App extends Component {
                 this.getUsers();
                 this.setState({username: '', email: ''})
             })
-            .catch((err) => { console.log(err); })
+            .catch((err) => {
+                console.log(err);
+            })
     }
 
     handleChange(event) {
@@ -57,16 +65,25 @@ class App extends Component {
                 <div className="row">
                     <div className="col-md-4">
                         <br/>
-                        <h1>All Users</h1>
-                        <hr/>
+                        <Switch>
+                            <Route exact path='/' render={() => (
+                                <div>
+                                    <h1>All Users</h1>
+                                    <hr/>
+                                    <br/>
+                                    <AddUser
+                                        username={this.state.username}
+                                        email={this.state.email}
+                                        handleChange={this.handleChange}
+                                        addUser={this.addUser}/>
+                                    <br/>
+                                    <UserList users={this.state.users}/>
+                                </div>
+                            )}/>
+                            <Route exact path='/about' component={About}/>
+                        </Switch>
                         <br/>
-                        <AddUser
-                            username={this.state.username}
-                            email={this.state.email}
-                            handleChange={this.handleChange}
-                            addUser={this.addUser}/>
-                        <br/>
-                        <UserList users={this.state.users}/>
+                        <About/>
                     </div>
                 </div>
             </div>

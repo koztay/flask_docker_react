@@ -5,6 +5,7 @@ const Form = (props) => {
   if (props.isAuthenticated) {
     return <Redirect to='/' />;
   }
+
   return (
     <div>
       <h1>{props.formType}</h1>

@@ -2,28 +2,33 @@ import React from 'react';
 import { Redirect } from 'react-router-dom';
 
 const Form = (props) => {
-  if (props.isAuthenticated) {
-    return <Redirect to='/' />;
+  const {
+    isAuthenticated, formType, handleUserFormSubmit, formData, handleFormChange,
+  } = props;
+
+  if (isAuthenticated) {
+    return <Redirect to="/" />;
   }
 
   return (
     <div>
-      <h1>{props.formType}</h1>
-      <hr/><br/>
-      <form onSubmit={(event) => props.handleUserFormSubmit(event)}>
-        {props.formType === 'Register' &&
-          <div className="form-group">
-            <input
-              name="username"
-              className="form-control input-lg"
-              type="text"
-              placeholder="Enter a username"
-              required
-              value={props.formData.username}
-              onChange={props.handleFormChange}
-            />
-          </div>
-        }
+      <h1>{formType}</h1>
+      <hr />
+      <br />
+      <form onSubmit={event => handleUserFormSubmit(event)}>
+        {formType === 'Register' && (
+        <div className="form-group">
+          <input
+            name="username"
+            className="form-control input-lg"
+            type="text"
+            placeholder="Enter a username"
+            required
+            value={formData.username}
+            onChange={handleFormChange}
+          />
+        </div>)
+    }
         <div className="form-group">
           <input
             name="email"
@@ -31,8 +36,8 @@ const Form = (props) => {
             type="email"
             placeholder="Enter an email address"
             required
-            value={props.formData.email}
-            onChange={props.handleFormChange}
+            value={formData.email}
+            onChange={handleFormChange}
           />
         </div>
         <div className="form-group">
@@ -42,8 +47,8 @@ const Form = (props) => {
             type="password"
             placeholder="Enter a password"
             required
-            value={props.formData.password}
-            onChange={props.handleFormChange}
+            value={formData.password}
+            onChange={handleFormChange}
           />
         </div>
         <input
@@ -53,7 +58,7 @@ const Form = (props) => {
         />
       </form>
     </div>
-  )
+  );
 };
 
 export default Form;

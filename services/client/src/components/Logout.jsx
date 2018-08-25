@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 
 class Logout extends Component {
   componentDidMount() {
-    this.props.logoutUser();
+    const { logoutUser } = this.props;
+    logoutUser();
   }
 
   render() {

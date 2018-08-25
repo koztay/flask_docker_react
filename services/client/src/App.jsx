@@ -22,9 +22,9 @@ class App extends Component {
       formData: {
         username: '',
         email: '',
-        password: '',
+        password: ''
       },
-      isAuthenticated: false,
+      isAuthenticated: false
     };
     this.addUser = this.addUser.bind(this);
     this.handleChange = this.handleChange.bind(this);
@@ -92,7 +92,7 @@ class App extends Component {
           formData: { username: '', email: '', password: '' },
           username: '',
           email: '',
-          isAuthenticated: true,
+          isAuthenticated: true
         });
         window.localStorage.setItem('authToken', res.data.auth_token);
         this.getUsers();
@@ -109,7 +109,7 @@ class App extends Component {
 
   render() {
     const {
-      title, username, email, users, formData, isAuthenticated,
+      title, username, email, users, formData, isAuthenticated
     } = this.state;
     return (
       <div>
@@ -141,7 +141,8 @@ class App extends Component {
                 <Route
                   exact
                   path="/about"
-                  component={About} />
+                  component={About}
+                />
                 <Route
                   exact
                   path="/register"

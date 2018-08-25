@@ -11,16 +11,16 @@ const testData = [
     formData: {
       username: '',
       email: '',
-      password: '',
-    },
+      password: ''
+    }
   },
   {
     formType: 'Login',
     formData: {
       email: '',
-      password: '',
-    },
-  },
+      password: ''
+    }
+  }
 
 ];
 
@@ -35,7 +35,7 @@ testData.forEach((el) => {
     const formGroup = wrapper.find('.form-group');
     expect(formGroup.length).toBe(Object.keys(el.formData).length);
     expect(formGroup.get(0).props.children.props.name).toBe(
-      Object.keys(el.formData)[0],
+      Object.keys(el.formData)[0]
     );
     expect(formGroup.get(0).props.children.props.value).toBe('');
   });

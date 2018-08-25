@@ -19,8 +19,6 @@ test('Navbar renders properly', () => {
 
 
 test('Navbar renders a snapshot properly', () => {
-  const tree = renderer.create(
-    <Router location="/"><NavBar title={title} /></Router>,
-  ).toJSON();
+  const tree = renderer.create(<Router location="/"><NavBar title={title} /></Router>).toJSON();
   expect(tree).toMatchSnapshot();
 });

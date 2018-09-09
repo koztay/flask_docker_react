@@ -3,7 +3,7 @@ import { Redirect } from 'react-router-dom';
 
 const Form = (props) => {
   const {
-    isAuthenticated, formType, handleUserFormSubmit, formData, handleFormChange,
+    isAuthenticated, formType, handleUserFormSubmit, formData, handleFormChange
   } = props;
 
   if (isAuthenticated) {

@@ -1,3 +1,5 @@
+# Kaldığım Yer: Sayfa 180 Mocking User Interaction 
+
 
 ### Finished code for part - 1 : 
 https://github.com/testdrivenio/testdriven-app-2.2/releases/tag/part1
@@ -49,3 +51,17 @@ npm run build
 
 ## Links:
 * https://reacttraining.com/react-router/web/guides/quick-start
+
+
+## Testing Workflow:
+
+```bash
+# update the containers and ensure the app working on client:
+docker-compose -f docker-compose-dev.yml up -d
+
+# test python code
+docker-compose -f docker-compose-dev.yml run users python manage.py test
+
+# test react client code
+docker-compose -f docker-compose-dev.yml run client npm test
+```

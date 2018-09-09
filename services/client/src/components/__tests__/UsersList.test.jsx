@@ -11,14 +11,14 @@ const users = [
     active: true,
     email: 'kemal@abcd.com',
     id: 1,
-    username: 'kemal',
+    username: 'kemal'
   },
   {
     active: true,
     email: 'sevval@abcd.com',
     id: 2,
-    username: 'sevval',
-  },
+    username: 'sevval'
+  }
 ];
 
 

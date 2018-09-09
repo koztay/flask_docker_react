@@ -19,7 +19,7 @@ test('Logout renders properly', () => {
 
 test('Logout renders a snapshot properly', () => {
   const tree = renderer.create(
-    <Router><Logout logoutUser={logoutUser} /></Router>,
+    <Router><Logout logoutUser={logoutUser} /></Router>
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });

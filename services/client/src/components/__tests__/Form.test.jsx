@@ -66,7 +66,7 @@ describe('When not authenticated', () => {
       expect(formGroup.get(0).props.children.props.name).toBe(
         Object.keys(el.formData)[0]
       );
-      expect(formGroup.get(0).props.children.props.value).toBe('')
+      expect(formGroup.get(0).props.children.props.value).toBe('');
     });
     it(`${el.formType} Form renders a snapshot properly`, () => {
       const tree = renderer.create(component).toJSON();

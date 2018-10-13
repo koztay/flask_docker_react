@@ -5,10 +5,17 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "node",
+      "name": "Flask",
+      "type": "python",
       "request": "launch",
-      "name": "Launch Program",
-      "program": "${file}"
+      "module": "flask",
+      "env": {
+        "FLASK_APP": "services/users/manage.py",
+        "FLASK_ENV": "development",
+        "FLASK_DEBUG": "0"
+      },
+      "args": ["run", "--no-debugger", "--no-reload"],
+      "jinja": true
     }
   ]
 }

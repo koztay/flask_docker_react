@@ -17,18 +17,18 @@ const Form = (props) => {
       <br />
       <form onSubmit={event => handleUserFormSubmit(event)}>
         {formType === 'Register' && (
-        <div className="form-group">
-          <input
-            name="username"
-            className="form-control input-lg"
-            type="text"
-            placeholder="Enter a username"
-            required
-            value={formData.username}
-            onChange={handleFormChange}
-          />
-        </div>)
-    }
+          <div className="form-group">
+            <input
+              name="username"
+              className="form-control input-lg"
+              type="text"
+              placeholder="Enter a username"
+              required
+              value={formData.username}
+              onChange={handleFormChange}
+            />
+          </div>)
+        }
         <div className="form-group">
           <input
             name="email"
